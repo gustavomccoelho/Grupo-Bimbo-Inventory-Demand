@@ -1,6 +1,6 @@
 #Setting working directory
 
-setwd("/home/gc/FCD/BigDataRAzure/Project-2/Grupo-Bimbo-Inventory-Demand")
+setwd("/home/gc/FCD/BigDataRAzure/Intenvory-Demand-Prediction/code")
 getwd()
 
 library(data.table)
