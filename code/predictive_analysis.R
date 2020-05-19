@@ -46,13 +46,6 @@ gc() # refreshing memory
 
 #****************************************Training Model************************************************
 
-# Linear - Kaggle Score - 0.67 - 10 million training data size
-
-train_sample <- sample_n(train,10000000)
-train <- NULL
-gc()
-model <- ranger(Demanda_uni_equil ~ .,train_sample)
-
 # Ranger - Kaggle Score - 0.55   - 10 million training data size - ntrees = 100 
   
 train_sample <- sample_n(train,10000000)
@@ -64,7 +57,7 @@ model <- ranger(Demanda_uni_equil ~ .,train_sample, num.trees = 100)
 
 train_sample <- NULL
 gc()
-prediction <- predict(model,test) # 67% with 2 million and 100 trees
+prediction <- predict(model,test) 
 prediction <- prediction$predictions
 
 # Saving data - GOOD LUCK!
