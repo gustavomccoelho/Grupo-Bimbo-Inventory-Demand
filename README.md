@@ -78,7 +78,7 @@ The following variables were not used on this script:
 
 ##  Prediction Model
 
-The chosen predictive model is Random Forest. The scrip uses the Ranger package, to improve memory usage efficiancy. The model is trained by using a 10 million size sample from the train data and 100 trees. The R-Square value reached is 0.55.  
+The chosen predictive model is Random Forest. The scrip uses the Ranger package, to improve memory usage efficiancy. The model is trained by using a 10 million size sample from the train data and 100 trees. The R-Square value reached is around 0.55.  
 
 ##  How to run scrips
 
