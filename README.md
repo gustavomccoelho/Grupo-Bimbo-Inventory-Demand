@@ -58,7 +58,7 @@ The exploratory analysis phase consists on findind the mean demand from each var
 
 ##  Variables not used
 
-The following variables were not used on this script:
+The following variables were not used for this script:
 
 ~~NombreCliente — Client name~~
 
